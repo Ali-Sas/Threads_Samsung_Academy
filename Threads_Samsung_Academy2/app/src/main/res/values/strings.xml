@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Threads_Samsung_Academy</string>
+    <string name="text_send">Здесь будет появляться ваш текст</string>
+    <string name="text_button">Нажми</string>
+    <string name="ed_3_hint">Введите третий текст</string>
+    <string name="ed_2_hint">Введите второй текст</string>
+    <string name="ed_1_hint">Введите первый текст</string>
+</resources>

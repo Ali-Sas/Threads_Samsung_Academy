@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/ed_1_hint"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:id="@+id/ed2"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/ed_2_hint"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:id="@+id/ed3"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/ed_3_hint"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/text_button"
+        android:textSize="26dp"
+        android:id="@+id/But"></Button>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/text_view"
+        android:text="  "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/for_text_view"
+        android:hint="@string/text_send"/>
+
+</LinearLayout>
